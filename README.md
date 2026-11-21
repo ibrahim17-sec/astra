@@ -28,22 +28,8 @@ Instead of comparing astronauts only against static population averages, ASTRA e
 
 ---
 
-## 2. Team ASTRA // 6-Member Crew Roster
 
-Every member of Team ASTRA is represented in the onboard flight roster (`src/crewDemo.js` & `src/elenaMissionScenario.js`) with a distinct physiological profile sorted automatically by clinical priority for the Crew Medical Officer and Ground Flight Surgeon:
-
-| Crew Member | Mission Role | Telemetry Profile & Operational Focus |
-| --- | --- | --- |
-| **Cmdr. Laila Yasser** | Mission Commander | Primary active digital twin profile (`ARTEMIS LUNAR & ARES MARS TRANSIT`); multisystem baseline tracking across 147 mission days |
-| **Ibrahim Salah** | Network & Systems Architect | Elevated blood pressure (`144/92 mmHg`, AHA Stage 2) and Spaceflight-Associated Neuro-ocular Syndrome (SANS) headward fluid-shift watch |
-| **Mahmoud Abdelnaby** | EVA Hardware & AR Specialist | Active lunar EVA suit motion artifact check (`Signal Quality 54% < 70%` gate holds false tachycardia alarm and requests a still re-check) |
-| **Mohand Abdo** | Onboard Web Systems Engineer | Nominal steady telemetry across musculoskeletal, cardiovascular, and metabolic domains |
-| **Marwan Hassan** | Bio-Analytics & ML Specialist | Sleep duration (`5.5 h`) and HRV/vigilance drift review (`RE-CHECK` at next window) |
-| **Omar** | VR & Simulation Specialist | Lunar EVA surface profile (`MOON 0.16g`, `1.37 mGy/day` surface dosimetry baseline) |
-
----
-
-## 3. Official NASA & CSA Evidence Architecture
+## 2. Official NASA & CSA Evidence Architecture
 
 All environmental rates, hazard mappings, and biological context tables in ASTRA trace directly to published NASA and Canadian Space Agency (CSA) sources (`src/healthEvidenceData.js`):
 
@@ -56,7 +42,7 @@ All environmental rates, hazard mappings, and biological context tables in ASTRA
 
 ---
 
-## 4. Color Palette & Flight Console Standards
+## 3. Color Palette & Flight Console Standards
 
 ASTRA enforces a strict deep-space cockpit palette across both CSS (`src/uiV5.css`, `src/twin.css`, `src/vrHelmet.css`) and WebGL overlays (`.antigravity/rules.md`):
 
@@ -70,7 +56,7 @@ Every coloured status indicator pairs its hue with an explicit console state wor
 
 ---
 
-## 5. Run & Build Locally
+## 4. Run & Build Locally
 
 ### Prerequisites
 - Node.js 20+ and npm
