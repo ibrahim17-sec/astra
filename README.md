@@ -1,7 +1,7 @@
-# ASTRA // Autonomous Astronaut Health & Digital Twin System
+# ASTRA  Autonomous Astronaut Health & Digital Twin System
 
 **NASA Space Apps Challenge Cairo 2026**
-**Mission Track:** * ARTEMIS LUNAR & ARES MARS TRANSIT // Onboard Biometric Stream, VR EVA Helmet HUD & 3D Physiological Digital Twin*
+**Mission Track:** * ARTEMIS LUNAR & ARES MARS TRANSIT  Onboard Biometric Stream, VR EVA Helmet HUD & 3D Physiological Digital Twin*
 
 ---
 
@@ -14,7 +14,7 @@ Website link = https://astra-lemon-chi.vercel.app/#twin
 Instead of comparing astronauts only against static population averages, ASTRA evaluates each crew member against their own pre-flight and early-mission personal baseline while enforcing clinical safety floors (AHA 2017 blood pressure limits, ADA 2024 hypoglycemia floors, and NEWS2 respiratory/SpO2 bounds) and a deterministic **Motion Artifact Signal Gate (`<70%`)** that suppresses false physiological alarms during active EVA movement.
 
 ### Core Capabilities
-1. **Native 3D VR EVA Helmet Visor Simulation (`#helmet` // `src/vrHelmetSim.js`)**:
+1. **Native 3D VR EVA Helmet Visor Simulation (`#helmet`  `src/vrHelmetSim.js`)**:
    - First-person Three.js WebGL planetary surface renderer supporting **Lunar Crater & LRV Rover (`MOON 0.16g`)** and **Martian Red-Ochre & 6-Wheel Science Rover (`MARS 0.38g`)** environments.
    - Mouse-drag look, `WASD`/Arrow walking with gravity-scaled gait physics, `Shift` sprint, `Space` jump, and a stereoscopic **VR Split-Screen Headset Mode**.
    - Curved glassmorphic visor HUD (`#02050c`, `#071326`, `#7fe3ff`) displaying 16-segment telemetry bars for **Heart Rate vs. EVA Baseline (`Δ%`)**, **Blood Pressure & SANS Ocular Risk**, **Respiration & SpO2**, **Core Temp, Sleep & Radiation Dose (`mGy/day`)**, and **Signal Quality (`%`)** with automatic motion-artifact gating.
